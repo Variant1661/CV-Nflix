@@ -251,7 +251,12 @@ export default function DeepflixCV() {
       {/* Job Details Modal */}
       {modalJob && (
         <Dialog open={true} onOpenChange={() => setModalJob(null)}>
-          <div className="fixed inset-0 z-50 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center">
+          <div
+            className="fixed inset-0 z-50 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center"
+            onClick={(e) => {
+              if (e.target === e.currentTarget) setModalJob(null);
+            }}
+          >
             <div className="bg-gray-900 text-white p-6 rounded-xl max-w-xl w-full shadow-lg max-h-[90vh] overflow-y-auto">
               <h2 className="text-2xl font-bold text-red-500 mb-2">{modalJob.role}</h2>
               <p className="text-sm text-gray-400 mb-1">{modalJob.company} • {modalJob.year}</p>
