@@ -109,6 +109,7 @@ export default function DeepflixCV() {
           <div className="mt-8 flex flex-wrap gap-3">
             <a className="px-5 py-3 rounded-xl bg-cyan-400 text-slate-950 font-semibold hover:bg-cyan-300" href={`mailto:${profile.email}`}>Email Deepak</a>
             <a className="px-5 py-3 rounded-xl border border-slate-600 text-slate-100 hover:border-cyan-300" href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a className="px-5 py-3 rounded-xl border border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-slate-950" href="/evidence/index.html" target="_blank" rel="noopener noreferrer">Open Evidence Pack</a>
           </div>
         </div>
       </section>
@@ -143,7 +144,8 @@ export default function DeepflixCV() {
       <section className="px-6 py-12 border-b border-slate-800">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">Portfolio Evidence</h2>
-          <p className="text-slate-400 mb-8 max-w-3xl">Recommended documents and examples to upload as PDFs or redacted screenshots. These should demonstrate your HR judgement, documentation quality and process improvement capability.</p>
+          <p className="text-slate-400 mb-5 max-w-3xl">An anonymised evidence pack has been built to demonstrate HR judgement, documentation quality and process improvement capability. It can be opened online or printed/saved as a PDF.</p>
+          <a className="inline-block mb-8 px-5 py-3 rounded-xl bg-cyan-400 text-slate-950 font-semibold hover:bg-cyan-300" href="/evidence/index.html" target="_blank" rel="noopener noreferrer">View full evidence pack</a>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {evidence.map((section) => (
               <article key={section.title} className="rounded-2xl bg-slate-900 border border-slate-800 p-6">
