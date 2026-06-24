@@ -12,7 +12,7 @@ const profile = {
   name: "Deepak Dakshina Moorthy",
   title: "Employee Relations & People Operations Professional",
   subtitle: "Manager Advisory | ER Casework | HR Compliance | Process Improvement",
-  member: "CIPD Member | Membership No: to be added",
+  member: "CIPD Member | Membership No: 9	2	5	2	8	2	8	0",
   summary: "HR and People Operations professional with over 7 years of experience across UK HR, regulated healthcare operations, people management, training and quality-led service delivery. I bring hands-on experience in employee relations support, manager advisory, absence and welfare processes, conduct and investigation documentation, recruitment compliance, right to work, DBS, staff file governance, payroll review and HR process improvement. My strength is combining fair-process judgement, strong documentation standards and practical business awareness to help managers resolve people issues consistently and confidently.",
   email: "deepak2012.dy@gmail.com",
   linkedin: "https://www.linkedin.com/in/deepak-dakshinamoorthy",
